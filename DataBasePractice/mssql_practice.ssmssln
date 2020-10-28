@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 18.00
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{603BAFD2-4605-4EA1-8B00-D0D16C775418}"
+	ProjectSection(SolutionItems) = preProject
+		66_UYGULAMALI SQL Ö_REN_YORUM DOKUMANLAR .docx = 66_UYGULAMALI SQL Ö_REN_YORUM DOKUMANLAR .docx
+		LICENSE = LICENSE
+		README.md = README.md
+		W_NDOWS SERVER.docx = W_NDOWS SERVER.docx
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BasicCommands", "BasicCommands", "{AEF77A03-9FC9-46BB-9038-502731945269}"
+	ProjectSection(SolutionItems) = preProject
+		ALIASES.sql = ALIASES.sql
+		DataConvert.sql = DataConvert.sql
+		DELETE.sql = DELETE.sql
+		DISTRICT.sql = DISTRICT.sql
+		INSERT.sql = INSERT.sql
+		ORDERBY.sql = ORDERBY.sql
+		SELECT.sql = SELECT.sql
+		TOP.sql = TOP.sql
+		TRUNCATE.sql = TRUNCATE.sql
+		UPDATE.sql = UPDATE.sql
+		WHERE.sql = WHERE.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aggregation", "Aggregation", "{BD786324-C824-43EF-9B21-74C8278AE523}"
+	ProjectSection(SolutionItems) = preProject
+		Aggregation.sql = Aggregation.sql
+		EXIST.sql = EXIST.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JOINS", "JOINS", "{4C58004D-4988-4277-BD4E-5A4835E90998}"
+	ProjectSection(SolutionItems) = preProject
+		basicsJOINS.sql = basicsJOINS.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GROUPBY", "GROUPBY", "{22BE99DC-9338-4D0E-B3B8-FE3BB73255A6}"
+	ProjectSection(SolutionItems) = preProject
+		GROUPBYbasic.sql = GROUPBYbasic.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D735234F-EEFC-41EF-A9E0-01097AC82F08}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AEF77A03-9FC9-46BB-9038-502731945269} = {603BAFD2-4605-4EA1-8B00-D0D16C775418}
+		{BD786324-C824-43EF-9B21-74C8278AE523} = {603BAFD2-4605-4EA1-8B00-D0D16C775418}
+		{4C58004D-4988-4277-BD4E-5A4835E90998} = {603BAFD2-4605-4EA1-8B00-D0D16C775418}
+		{22BE99DC-9338-4D0E-B3B8-FE3BB73255A6} = {BD786324-C824-43EF-9B21-74C8278AE523}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E3C028C2-1CE1-478E-8119-6F8A308768CF}
+	EndGlobalSection
+EndGlobal

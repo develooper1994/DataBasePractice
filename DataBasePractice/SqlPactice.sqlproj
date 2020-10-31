@@ -73,5 +73,16 @@
     <Build Include="TRUNCATE.sql" />
     <Build Include="UPDATE.sql" />
     <Build Include="WHERE.sql" />
+    <Build Include="Aggregation.sql" />
+    <Build Include="Algorithm_script.sql" />
+    <Build Include="ALIASES.sql" />
+    <Build Include="basicsJOINS.sql" />
+    <Build Include="DataConvert.sql" />
+    <Build Include="DISTRICT.sql" />
+    <Build Include="EXIST.sql" />
+    <Build Include="GROUPBYbasic.sql" />
+    <Build Include="ORDERBY.sql" />
+    <Build Include="TOP.sql" />
+    <Build Include="Variables.sql" />
   </ItemGroup>
 </Project>

@@ -42,12 +42,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GROUPBY", "GROUPBY", "{22BE
 		GROUPBYbasic.sql = GROUPBYbasic.sql
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Variables", "Variables", "{BDDF2DA6-24C1-4A7C-AA54-699C04C26558}"
+	ProjectSection(SolutionItems) = preProject
+		Algorithm_script.sql = Algorithm_script.sql
+		Variables.sql = Variables.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|Default = Default|Default
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D735234F-EEFC-41EF-A9E0-01097AC82F08}.Default|Default.ActiveCfg = Default
+		{213A2BC4-7849-42AD-950C-EC7BACE38381}.Default|Default.ActiveCfg = Default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -57,6 +63,7 @@ Global
 		{BD786324-C824-43EF-9B21-74C8278AE523} = {603BAFD2-4605-4EA1-8B00-D0D16C775418}
 		{4C58004D-4988-4277-BD4E-5A4835E90998} = {603BAFD2-4605-4EA1-8B00-D0D16C775418}
 		{22BE99DC-9338-4D0E-B3B8-FE3BB73255A6} = {BD786324-C824-43EF-9B21-74C8278AE523}
+		{BDDF2DA6-24C1-4A7C-AA54-699C04C26558} = {603BAFD2-4605-4EA1-8B00-D0D16C775418}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E3C028C2-1CE1-478E-8119-6F8A308768CF}

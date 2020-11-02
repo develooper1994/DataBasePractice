@@ -1,4 +1,4 @@
-ALTER FUNCTION NumbersToWords (@NumericValue NUMERIC(38,2))
+CREATE FUNCTION NumbersToWords (@NumericValue NUMERIC(38,2))
 	RETURNS VARCHAR(1024)
 as
 BEGIN

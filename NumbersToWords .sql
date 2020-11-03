@@ -180,66 +180,30 @@ END
 	RETURN @strFinal
 END
 
+
 /*
-
 --  *-*-*-*-*-*-*-*-*-*-*-*-*-*-*- NumbersToWords -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
-SELECT NumberInEnglish=dbo.NumbersToWords ( 18)  -- eighteen
-SELECT NumberInEnglish=dbo.NumbersToWords ( 67)
-SELECT NumberInEnglish=dbo.NumbersToWords ( 947)
+SELECT NumberInEnglish=dbo.NumbersToWords (0)  -- 
+SELECT NumberInEnglish=dbo.NumbersToWords (1)
+SELECT NumberInEnglish=dbo.NumbersToWords (18)
+SELECT NumberInEnglish=dbo.NumbersToWords (67)
+SELECT NumberInEnglish=dbo.NumbersToWords (947)
 -- Nine Hundred Forty-Seven
-SELECT NumberInEnglish=dbo.NumbersToWords ( 984261)
--- Nine Hundred Eighty-Four Thousand Two Hundred Sixty-One
-SELECT NumberInEnglish=dbo.NumbersToWords ( 777999888)
-/* Seven Hundred Seventy-Seven Million Nine Hundred Ninety-Nine Thousand
-   Eight Hundred Eighty-Eight */
-SELECT NumberInEnglish=dbo.NumbersToWords ( 222777999888)
-SELECT NumberInEnglish=dbo.NumbersToWords ( 555222777999888)
-SELECT NumberInEnglish=dbo.NumbersToWords ( 7446744073709551616)
-
-
-
-
-
---  *-*-*-*-*-*-*-*-*-*-*-*-*-*-*- NumbersToWords2 -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
-SELECT NumberInEnglish=dbo.NumbersToWords2 ( 18)
-SELECT NumberInEnglish=dbo.NumbersToWords2 ( 67)
-SELECT NumberInEnglish=dbo.NumbersToWords2 ( 947)
--- Nine Hundred Forty-Seven
-SELECT NumberInEnglish=dbo.NumbersToWords2 ( 984261)
--- Nine Hundred Eighty-Four Thousand Two Hundred Sixty-One
-SELECT NumberInEnglish=dbo.NumbersToWords2 ( 777999888)
-/* Seven Hundred Seventy-Seven Million Nine Hundred Ninety-Nine Thousand
-   Eight Hundred Eighty-Eight */
-SELECT NumberInEnglish=dbo.NumbersToWords2 ( 222777999888)
-SELECT NumberInEnglish=dbo.NumbersToWords2 ( 555222777999888)
-SELECT NumberInEnglish=dbo.NumbersToWords2 ( 7446744073709551616)
-
-
-
-
-
---  *-*-*-*-*-*-*-*-*-*-*-*-*-*-*- NumbersToWords3 -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
-SELECT NumberInEnglish=dbo.NumbersToWords3 (0)  -- 
-SELECT NumberInEnglish=dbo.NumbersToWords3 (1)
-SELECT NumberInEnglish=dbo.NumbersToWords3 (18)
-SELECT NumberInEnglish=dbo.NumbersToWords3 (67)
-SELECT NumberInEnglish=dbo.NumbersToWords3 (947)
--- Nine Hundred Forty-Seven
-SELECT NumberInEnglish=dbo.NumbersToWords3 (940007)  -- I solved the "middle zeros" bug by reserting @sentence and @hundVal variables
+SELECT NumberInEnglish=dbo.NumbersToWords (940007)  -- I solved the "middle zeros" bug by reserting @sentence and @hundVal variables
 -- Nine Hundred Forty Thousand, Seven
-SELECT NumberInEnglish=dbo.NumbersToWords3 (984261)
+SELECT NumberInEnglish=dbo.NumbersToWords (984261)
 -- Nine Hundred Eighty-Four Thousand Two Hundred Sixty-One
-SELECT NumberInEnglish=dbo.NumbersToWords3 (777999888)
+SELECT NumberInEnglish=dbo.NumbersToWords (777999888)
 /* Seven Hundred Seventy-Seven Million Nine Hundred Ninety-Nine Thousand
    Eight Hundred Eighty-Eight */
-SELECT NumberInEnglish=dbo.NumbersToWords3 (222777999888)
-SELECT NumberInEnglish=dbo.NumbersToWords3 (555222777999888)
-SELECT dbo.NumbersToWords3 (7446744073709551616)
+SELECT NumberInEnglish=dbo.NumbersToWords (222777999888)
+SELECT NumberInEnglish=dbo.NumbersToWords (555222777999888)
+SELECT dbo.NumbersToWords (7446744073709551616)
 
 -- only way to run extremly big numbers
 DECLARE	@return_value VarChar(1024)
 
-EXEC	@return_value = [dbo].[NumbersToWords3]
+EXEC	@return_value = [dbo].[NumbersToWords]
 		@NumericValue = 7446744073709551616
 
 SELECT	@return_value as 'Return Value'
